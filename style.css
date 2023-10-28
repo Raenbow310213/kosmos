@@ -1,0 +1,99 @@
+.kocmoc{
+    margin: 50px auto;
+    display: block;
+    width: 450px;
+}
+.text1{
+    width: 700px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: blueviolet;
+    
+}
+body{
+    background-color: plum;
+
+}
+footer{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    align-items: center;
+}
+footer p{
+    font-size: 25px;
+    color: gold;
+}
+.viktorina2013{
+    background-color: plum;
+}
+@media
+(max-width:768px){
+footer p{
+    font-size: 20px;
+    margin: 0px;
+    
+}
+
+}
+@media
+(max-width:1280px){
+footer p{
+    font-size: 40px;
+    margin: 0px;
+    
+}
+}
+@media
+(max-width:1600px){
+footer p{
+    font-size: 40px;
+    margin: 0px;
+    
+}
+
+footer img{
+    width: 165px;
+}
+.itog{
+    width: 500px;
+}
+}
+@media(max-width:480px){
+  .text1{
+    width: 350px; ;
+  }
+  .itog{
+    width: 400px;
+  } 
+  footer img{
+    width: 86px;
+  } 
+  footer p{
+    font-size: 28px;
+  }
+}
+
+@media(max-width:320px){
+  .text1{
+    width: 320px; ;
+  } 
+  .kocmoc{
+    width: 300px;
+  } 
+
+footer p{
+    font-size: 18px;
+    color: gold;
+}
+
+footer img{
+    width: 55px;
+}
+.itog{
+    width: 290px;
+}
+}
+
+
